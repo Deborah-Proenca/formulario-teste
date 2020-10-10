@@ -1,6 +1,7 @@
 <html>
+  <script src="index.js"></script>
   <body style="background-color: rgba(0, 102, 255, 0.247); font-family:Verdana, Geneva, Tahoma, sans-serif;">
-    <div class="jumbotron" style="margin-left:40%;">
+    <div id="formulario" class="jumbotron" style="margin-left:40%;">
      <div style="margin-left: 4%">
       <img src="logo.png">
     </div>
@@ -11,28 +12,36 @@
       </div>
    <div>
        <label> <b> Nome: </b> </label>
-       <input style="margin-left:5%" placeholder="Digite seu nome">  </input>
+       <input id="nome" style="margin-left:5%" placeholder="Digite seu nome">  </input>
    </div>
    <br>
    <div> 
       <label> <b>Telefone:</b> </label>
-      <input style="margin-left:2%" type="number" placeholder="(DDD) XXXXX-XXXX"> </input>
+      <input id="telefone" style="margin-left:2%" type="number" placeholder="(DDD) XXXXX-XXXX"> </input>
    </div>
    <br>
    <div>       
       <label> <b> Email:</b> </label>
-      <input style="margin-left:5%" placeholder="Digite seu email"> </input>
+      <input id="email" style="margin-left:5%" placeholder="Digite seu email"> </input>
    </div>
    <br>
    <div>
       <label> <b> Mensagem: </b> </label>
-      <input style="height:100px"> </input>
+      <input id="mensagem" style="height:100px"> </input>
     </div>
     <br>
     <div style="margin-left:15%">
-      <button> Enviar Formulário </button>
+      <button onclick="sendForm()">Enviar Formulário</button>
     </div>
     <br>
+   </div>
+
+   <div id="sucesso"></div>
+   <div id="response">
+    <h3 id="formNome"></h3>
+    <h3 id="formTelefone"></h3>
+    <h3 id="formEmail"></h3>
+    <h3 id="formMensagem"></h3>
    </div>
  </body>
 </html>
