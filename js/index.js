@@ -17,7 +17,7 @@ function sendForm() {
     tag.setAttribute("style", "margin-left: 30%");
     var img = document.createElement("img");
     img.setAttribute("style", "margin-left: 50%; width: 100px; height:100px");
-    img.src = "okay.png";
+    img.src = "../assets/okay.png";
      
     element.appendChild(img);
 
