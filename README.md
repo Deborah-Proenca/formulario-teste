@@ -15,5 +15,5 @@ git clone https://github.com/Deborah-Proenca/formulario-teste.git
 
 Run Application:
 ```sh
-Abra o arquivo formulario.html no navegador
+Abra o arquivo html/formulario.html no navegador
 ```
