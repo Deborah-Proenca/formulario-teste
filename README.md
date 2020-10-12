@@ -6,6 +6,7 @@ Tecnologias
 ```sh
 JavaScript
 HTML
+CSS
 ```
 
 Clonar repositório
